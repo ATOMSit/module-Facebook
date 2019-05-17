@@ -5,7 +5,7 @@ namespace Modules\Facebook\Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class FacebookDatabaseSeeder extends Seeder
+class SystemFacebookDatabaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,8 +14,6 @@ class FacebookDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Model::unguard();
 
-        // $this->call("OthersTableSeeder");
     }
 }
